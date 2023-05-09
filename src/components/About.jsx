@@ -2,8 +2,8 @@
 
 const About = () => {
   return (
-    <div className=" w-full py-5 ">
-        <div className="h-auto md:max-h-auto lg:max-w-screen-lg flex flex-col md:flex-row md:gap-5 bg-red-300/40 w-[80vw] mx-auto rounded-lg">
+    <div id="about" className=" w-full py-5 ">
+        <div className="h-auto md:max-h-auto lg:max-w-screen-lg flex flex-col md:flex-row md:gap-5 bg-emerald-400/40 w-[80vw] mx-auto rounded-lg">
             <div>
                 <img className="h-auto sm:h-full md:max-h-[50vh] w-auto md:ml-0 bg-cover mx-auto md:rounded-l-lg rounded-t-lg md:rounded-r-none" src="https://images.pexels.com/photos/5212339/pexels-photo-5212339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
             </div>

@@ -1,8 +1,8 @@
 
 const Method = () => {
   return (
-    <div className=" w-full py-10 ">
-        <div className="shadow-lg h-auto md:max-h-auto lg:max-w-screen-lg flex flex-col md:flex-row md:gap-5 bg-red-400/95 w-[80vw] mx-auto rounded-l-sm">
+    <div id="method" className=" w-full py-10 ">
+        <div className="shadow-lg h-auto md:max-h-auto lg:max-w-screen-lg flex flex-col md:flex-row md:gap-5 bg-emerald-400/40 w-[80vw] mx-auto rounded-l-sm">
             <div className="w-full px-6 md:pt-6">
                 <h2 className="text-3xl font-thin text-white my-3 w-full">Metodologia</h2>
                 {/* <div className="w-full border-b-2 border-white mb-5"></div> */}

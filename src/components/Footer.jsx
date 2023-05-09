@@ -1,8 +1,12 @@
-
+import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 const Footer = () => {
+  
   return (
-    <div className="flex w-full justify-center text-white border-t border-red-800 py-5">
+    <div className="flex w-full justify-center items-center gap-2 text-white py-5 bg-black/40">
+      <AiOutlineCopyrightCircle />
+      <p>
         Copyright - All Right Reserved
+      </p>
     </div>
   )
 }
