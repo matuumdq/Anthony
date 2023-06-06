@@ -19,7 +19,11 @@ const Contact = () => {
 			.sendForm(
 				import.meta.env.VITE_SERVICE,
 				import.meta.env.VITE_TEMPLATE,
-				form.current,
+				{
+					user_name: name,
+					message: messages,
+					user_email: email,
+				},
 				import.meta.env.VITE_USER_API
 			)
 			.then(
