@@ -15,10 +15,14 @@ export const cursos = [
     },
     {
       id: 2,
-      name: "Empresarial",
-      explanation: 'Para personas que quieren estudiar italiano y así ofrecer mejores servicios dentro de una impresa con ciertas necesidades.',
+      name: "Exámenes",
+      explanation: 'Tienes un examen difícil que rendir y no sabes por donde empezar a estudiar?',
       img: "https://images.pexels.com/photos/15164659/pexels-photo-15164659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+<<<<<<< HEAD
       msg: 'https://api.whatsapp.com/send?phone=+5491123908904&text=Hola,%20estoy%20interesado%20en%20el%20curso%20de%20Empresarial'
+=======
+      msg: 'https://api.whatsapp.com/send?phone=+5492236681270&text=Hola,%20necesito%20rendir%20un%20examen%20de%20nivel%20[secundario/universitario]'
+>>>>>>> 0d06e7c475c56455d8f6acfa3ac68b7acccd4b1f
     },
     {
       id: 3,
