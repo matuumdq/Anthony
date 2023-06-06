@@ -48,13 +48,13 @@ const Contact = () => {
 							<input
 								type="text"
 								onChange={(e) => setName(e.target.value)}
-								name="floating_name"
-								id="floating_name"
+								name="user_name"
+								id="name"
 								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
-								htmlFor="floating_name"
+								htmlFor="name"
 								className="peer-focus:font-medium absolute text-sm text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 z-10 origin-[0] peer-focus:left-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Ingrese su nombre
@@ -63,15 +63,15 @@ const Contact = () => {
 
 						<div className="relative my-2 mx-5 group">
 							<input
-								type="text"
+								type="email"
 								onChange={(e) => setEmail(e.target.value)}
-								name="floating_email"
-								id="floating_email"
+								name="user_email"
+								id="email"
 								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
-								htmlFor="floating_email"
+								htmlFor="email"
 								className="peer-focus:font-medium absolute text-sm text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 z-10 origin-[0] peer-focus:left-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Ingrese su Email
@@ -82,13 +82,13 @@ const Contact = () => {
 							<input
 								type="text"
 								onChange={(e) => setMessages(e.target.value)}
-								name="floating_message"
-								id="floating_message"
+								name="message"
+								id="message"
 								className="block py-2.5 px-0 w-full text-sm text-black bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
-								htmlFor="floating_message"
+								htmlFor="message"
 								className="peer-focus:font-medium absolute text-sm text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 z-10 origin-[0] peer-focus:left-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Escriba su Consulta
