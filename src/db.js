@@ -9,14 +9,14 @@ export const cursos = [
     {
       id: 1,
       name: "Turista",
-      explanation: 'Para personas que quieren ir a visitar Italia y quieren aprender las cosas esenciales para poder moverse con una base lingüística',
+      explanation: 'Para turístas que deseen ir a visitar Italia y quieran aprender las reglas esenciales para poder moverse con una base lingüística',
       img: "https://images.pexels.com/photos/733830/pexels-photo-733830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       msg: 'https://api.whatsapp.com/send?phone=+5492236681270&text=Hola,%20estoy%20interesado%20en%20el%20curso%20de%20Turista'
     },
     {
       id: 2,
       name: "Exámenes",
-      explanation: 'Tienes un examen difícil que rendir y no sabes por donde empezar a estudiar?',
+      explanation: 'Para las personas que necesiten una ayuda extra para avanzar en ámbitos académicos',
       img: "https://images.pexels.com/photos/15164659/pexels-photo-15164659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       msg: 'https://api.whatsapp.com/send?phone=+5492236681270&text=Hola,%20necesito%20rendir%20un%20examen%20de%20nivel%20[secundario/universitario]'
     },
