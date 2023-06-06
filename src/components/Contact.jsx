@@ -26,16 +26,6 @@ const Contact = () => {
 				},
 				import.meta.env.VITE_USER_API
 			)
-			// const sendFeedback = (serviceID, templateId, variables) => {
-			// 	emailjs
-			// 		.send(serviceID, templateId, variables)
-			// emailjs
-			// 	.sendForm(
-			// 		import.meta.env.VITE_SERVICE,
-			// 		import.meta.env.VITE_TEMPLATE,
-			// 		form.current,
-			// 		import.meta.env.VITE_USER_API
-			// 	)
 			.then(
 				() => {
 					toast.success("Email enviado satisfactoriamente");
@@ -64,7 +54,7 @@ const Contact = () => {
 								onChange={(e) => setName(e.target.value)}
 								name="user_name"
 								id="user_name"
-								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
+								className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
@@ -81,7 +71,7 @@ const Contact = () => {
 								onChange={(e) => setEmail(e.target.value)}
 								name="user_email"
 								id="user_email"
-								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
+								className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
@@ -98,7 +88,7 @@ const Contact = () => {
 								onChange={(e) => setMessages(e.target.value)}
 								name="message"
 								id="message"
-								className="block py-2.5 px-0 w-full text-sm text-black bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
+								className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
@@ -110,7 +100,7 @@ const Contact = () => {
 						</div>
 						<div className="justify-self-center items-center md:col-span-2 mb-4">
 							<button
-								className="font-light bg-green-700 shadow-xl mx-auto ml-0 px-12 py-2 rounded-md hover:scale-105 ease-in duration-300 text-white "
+								className="font-semibold uppercase bg-green-700 shadow-xl mx-auto ml-0 px-12 py-2 rounded-md hover:scale-105 ease-in duration-300 text-white "
 								type="submit"
 							>
 								Enviar
