@@ -19,11 +19,7 @@ const Contact = () => {
 			.sendForm(
 				import.meta.env.VITE_SERVICE,
 				import.meta.env.VITE_TEMPLATE,
-				{
-					user_name: name,
-					message: messages,
-					user_email: email,
-				},
+				form.current,
 				import.meta.env.VITE_USER_API
 			)
 			.then(
@@ -53,12 +49,12 @@ const Contact = () => {
 								type="text"
 								onChange={(e) => setName(e.target.value)}
 								name="user_name"
-								id="name"
+								id="user_name"
 								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
-								htmlFor="name"
+								htmlFor="user_name"
 								className="peer-focus:font-medium absolute text-sm text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 z-10 origin-[0] peer-focus:left-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Ingrese su nombre
@@ -70,12 +66,12 @@ const Contact = () => {
 								type="email"
 								onChange={(e) => setEmail(e.target.value)}
 								name="user_email"
-								id="email"
+								id="user_email"
 								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-green-500/60 appearance-none focus:outline-none focus:ring-0 focus:border-slate-300 peer"
 								placeholder=" "
 							/>
 							<label
-								htmlFor="email"
+								htmlFor="user_email"
 								className="peer-focus:font-medium absolute text-sm text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 z-10 origin-[0] peer-focus:left-0 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Ingrese su Email
