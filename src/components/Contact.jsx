@@ -14,37 +14,35 @@ const Contact = () => {
 			toast.error("Todos los campos son obligatorios");
 			return;
 		}
-		const serviceID = import.meta.env.VITE_SERVICE;
-		const templateId = import.meta.env.VITE_TEMPLATE;
 
-		sendFeedback(serviceID, templateId, {
-			from_name: name,
-			from_email: email,
-			message: messages,
-		});
-		const sendFeedback = (serviceID, templateId, variables) => {
-			emailjs
-				.send(serviceID, templateId, variables)
-				// emailjs
-				// 	.sendForm(
-				// 		import.meta.env.VITE_SERVICE,
-				// 		import.meta.env.VITE_TEMPLATE,
-				// 		form.current,
-				// 		import.meta.env.VITE_USER_API
-				// 	)
-				.then(
-					() => {
-						toast.success("Email enviado satisfactoriamente");
-						e.target.reset();
-						setName("");
-						setEmail("");
-						setMessages("");
-					},
-					(error) => {
-						console.log(error.text);
-					}
-				);
-		};
+		emailjs
+			.send(import.meta.env.VITE_SERVICE, import.meta.env.VITE_TEMPLATE, {
+				from_name: name,
+				from_email: email,
+				message: messages,
+			})
+			// const sendFeedback = (serviceID, templateId, variables) => {
+			// 	emailjs
+			// 		.send(serviceID, templateId, variables)
+			// emailjs
+			// 	.sendForm(
+			// 		import.meta.env.VITE_SERVICE,
+			// 		import.meta.env.VITE_TEMPLATE,
+			// 		form.current,
+			// 		import.meta.env.VITE_USER_API
+			// 	)
+			.then(
+				() => {
+					toast.success("Email enviado satisfactoriamente");
+					e.target.reset();
+					setName("");
+					setEmail("");
+					setMessages("");
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
 	};
 
 	return (
