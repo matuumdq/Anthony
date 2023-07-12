@@ -11,9 +11,13 @@ const About = () => {
                 <div className="w-full border-b-2 border-white mt-4 mb-6"></div>
                 <h2 className="text-3xl font-thin text-white my-3 w-full">Un poco de Mi</h2>
                 <div className="flex flex-col gap-2 text-gray-100 font-thin pb-5">
-                    <p className="">Nací en Italia en Milán pero viví toda mi vida en Pavía, un pueblito medioeval a media hora de Milán</p>
-                    <p className="">A los 20 años decidí tomar una pausa de mis estudios pedagógicos y viajar por el continente Latino. Llegué a Argentina y de aquí no me fui nunca más, me casé y ahora trabajo como enseñante de italiano privado. </p>
-                    <p className="">Mis pasiones son la enseñanza y la psicología; actualmente estoy estudiando la carrera de Coaching Ontológico en Buenos Aires y en mi tiempo libre me encanta practicar yoga y leer sobre filosofía.</p>
+                    <p className="">Mi propósito es ayudarte a aprender el idioma italiano de manera natural y dinámica</p>
+                    <p className="">Nací en Italia, Milán pero viví toda mi vida en Pavía, un pueblito medieval a media hora de Milán</p>
+                    <p className="">A los 20 años decidí tomar una pausa de mis estudios pedagógicos y viajar por el continente Latino. Llegué a Argentina y de aquí no me fui nunca más: me casé y trabajo como profesor de italiano privado. </p>
+                    <p className="">Mis pasiones son la enseñanza y la psicología: actualmente estoy estudiando la carrera de Coaching Ontológico en Buenos Aires y en mi tiempo libre me encanta practicar yoga y leer sobre filosofía.</p>
+                    <p className="">
+                    Mi trabajo nació un poco antes de la pandemia, de la pasión por enseñar y, por supuesto, del buen manejo del idioma. Como profesor particular de italiano mi meta es enseñar ese idioma de manera personalizada adaptándome a las exigencias de mis alumnos, sea que ellos quieran aprender cositas básicas para comunicarse, lo esencial para ir como turista, aprender desde cero e ir de a poco aumentando el manejo del idioma hasta niveles más altos, hacer conversaciones y mucho más.
+                    </p>
                 </div>
             </div>
         </div>

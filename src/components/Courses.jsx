@@ -23,6 +23,8 @@ const Courses = () => {
 							<div className="w-full mx-auto border-b-2 border-green-700 mt-2"></div>
 						</div>
 						<p>{curso.explanation}</p>
+						<p>{curso.explanation2}</p>
+						<p>{curso.duration}</p>
 						<a
 							href={curso.msg}
 							target="_blank"
